@@ -6,8 +6,8 @@ Reconnaissance de personnes: regroupement et confirmation manuelle de photos par
 Collections: vues thématiques d'images (via l'API Unsplash)
 Archive & corbeille : archivage, suppression avec système d'annulation (snapshot + restauration) (app/archive/, app/trash/)
 Ajout de photos: upload avec zone de dépôt (app/addPictures/)
-Authentification — inscription/connexion, profil utilisateur modifiable
-Notifications — cloche de notifications avec statut lu/non lu
+Authentification :inscription/connexion, profil utilisateur modifiable
+Notifications : cloche de notifications avec statut lu/non lu
 Architecture technique
 Frontend : composants React modulaires (sidebar, galerie, modales, toasts…) dans components/
 Stockage des données : localStorage côté navigateur (lib/mediaStore.ts) — pas de base de données réelle à ce stade
